@@ -1,4 +1,4 @@
-name: CI
+name: Skia build
 
 on:
   push:
@@ -67,4 +67,4 @@ jobs:
       - name: download results
         uses: actions/upload-artifact@v3
         with:
-          path: ./out/Release
+          path: ./out/
